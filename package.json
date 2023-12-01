@@ -1,0 +1,30 @@
+{
+  "name": "cloudflare-send-email-service",
+  "version": "1.0.0",
+  "description": "Cloudflare Email Worker as a Service / API",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "wrangler deploy index.js",
+    "dev": "wrangler dev index.js --local"
+  },
+  "keywords": [
+    "cloudflare",
+    "email",
+    "worker",
+    "service",
+    "send"
+  ],
+  "author": "Willin Wang <willin@willin.org> (https://willin.wang/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willin/cloudflare-send-email-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/willin/cloudflare-send-email-service/issues"
+  },
+  "homepage": "https://github.com/willin/cloudflare-send-email-service#readme",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "wrangler": "^3.17.1"
+  }
+}
